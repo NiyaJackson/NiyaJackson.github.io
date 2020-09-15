@@ -1,9 +1,9 @@
 body {
   background: #0c1514;
-  color: #fff;
+  color: #fff;  
 }
-h1 {
-  color: #63c5bc;
+h1,p {
+  color: rgb(35,3,75);
 }
 .faded {
   color: #777;
@@ -58,7 +58,7 @@ h1 {
 }
 
 #quiz-controls {
-    background: #63c5bc;
+    background: #bebebe;
     color: #111;
     padding: 0.25em 0.5em 0.5em;
     text-align: center;
@@ -73,14 +73,27 @@ h1 {
 .quiz-container .quiz-button {
     display: inline-block;
     padding: 0.5em 1em;
-    background: #88449a;
+   background:rgb(35,3,75) ;
     color: #fff;
 }
+
+#quiz-buttons:hover a,
+.quiz-button:hover {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background:#ffc642!important;
+    color: rgb(35,3,75);
+}
+
+
+
+
+
 #quiz-buttons a {
     background: #fff;
     color: #333;
 }
-
+  
 /* Quiz State Overrides */
 
 .quiz-results-state #quiz-controls {
@@ -88,6 +101,9 @@ h1 {
     padding: 0;
 }
 .quiz-results-state #quiz-buttons a {
-    background: #88449a;
+    background: rgb(35,3,75);
     color: #fff;
+}
+a {
+    text-decoration: none !important;
 }
