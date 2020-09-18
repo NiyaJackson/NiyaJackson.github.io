@@ -35,7 +35,7 @@ $('#quiz').quiz({
         '5% of the loan value',
         '5% of your taxable income'
       ],
-      'correctIndex': 1,
+      'correctIndex': 0,
       'correctResponse': 'Awesome, thats the right answer',
       'incorrectResponse': '5% of the property value is required by most vendors'
     },
