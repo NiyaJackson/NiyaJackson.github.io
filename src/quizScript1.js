@@ -9,7 +9,7 @@ $('#quiz').quiz({
     {
       'q': 'Which of these should you do first when considering buying a new home',
       'options': [
-        'Select a property that you like and put in a offer with the real estate agent',
+        'Select a property that you like and put in an offer with the real estate agent',
         'Close all your credit and store cards to improve your credit score',
         'Get a pre-approval for your loan from a lender that suits you best'
       ],
